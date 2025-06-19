@@ -1,0 +1,23 @@
+What is SQL?  
+o Write a brief explanation of SQL and its purpose in web development.
+ANSWER:
+SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to store, retrieve, update, and delete data efficiently.
+
+🔹 Purpose in Web Development:
+In web development, SQL is used to interact with the backend database of a website or web application. Here's how it helps:
+
+Storing user data (e.g., login info, form submissions)
+
+Fetching dynamic content for display (e.g., product listings, search results)
+
+Updating data based on user interactions (e.g., editing profiles, adding items to a cart)
+
+Maintaining data integrity and security
+
+Example:
+SELECT * FROM users WHERE email = 'test@example.com';
+
+
+This SQL query retrieves all data for the user with the specified email — a common operation in login systems.
+
+In short, SQL connects the front end of a website with the data stored on the back end, making websites interactive and data-driven.
